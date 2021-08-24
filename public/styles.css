@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0.5rem;
+}
+h1 {
+    color: violet
+}
+
+ul {
+    color: blue
+}
+
+.verde {
+    color: green
+}
+
+.meta {
+    font-weight: bold;
+    color: blue;
+}
+
+.meta span {
+    color: brown;
+}
+
+.text {
+    color: green;
+    font-style: italic;
+}
+
+.userList {
+    list-style-type: none;
+}
+
+.users {
+    list-style-position: inside;
+}
+
+.chat-container {
+    border: black solid 1px;
+    max-width: 500px;
+    padding: 0.5rem;
+}
+
+.room-name {
+    display: inline;
+}
+

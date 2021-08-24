@@ -1,0 +1,14 @@
+<table id="tabla" cellspacing="20px" cellpadding="25px" border="1px">
+    <tr>
+        <th>Nombre del producto</th>
+        <th>Precio</th>
+        <th>Foto</th>
+    </tr>
+    {{#each productos}}
+    <tr>
+        <td>{{title}}</td>
+        <td>{{price}}</td>
+        <td><img width="100px", height="100px" src="{{thumbnail}}" alt="fotito de producto"></td>
+    </tr>
+    {{/each}}
+</table>
